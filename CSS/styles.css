@@ -693,8 +693,8 @@ body {
   cursor: pointer;
 }
 
-.projects-card:hover,
-.projects-card:focus {
+.projects-card:hover .projects-text,
+.projects-card:focus .projects-text {
   transform: translateY(0);
 }
 
@@ -752,6 +752,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Modal */
 .backdrop {
   position: fixed;
   top: 0;
